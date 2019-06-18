@@ -1,8 +1,12 @@
 <h1>Ember Component Sandbox - V9</h1>
+<h2>Introduction</h2>
+<p>This repo contains a working Ember.js project used to support a tutorial on Ember.js components</p>
+<h2>What's here</h2>
 <p>These code examples are based on "Ember.js Cookbook" Chapter 6, "Using events in components".</p>
-<p>The key changes are that property and function names have been changed to make more explicit the dependencies between the names.</p>
-<div>
-  <h2>Student List</h2>
+<p>The key changes are that property and function names have been changed to make more explicit the dependencies between the elements that make up the component.</p>
+<h2>Component Use Example</h2>
+<div id="demooutput">
+  <h3>Student List</h3>
   {{student-list abcDef=(action 'removeController1' ) ghiJkl=(action 'resetController1')}}
     {{#each model as |student|}}
       <p>{{student}}</p>
