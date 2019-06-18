@@ -1,10 +1,11 @@
-<h1>Hello - V4</h1>
-<p>Is it tea you're looking for ?</p>
+<h1>Ember Component Sandbox - V9</h1>
+<p>These code examples are based on "Ember.js Cookbook" Chapter 6, "Using events in components".</p>
+<p>The key changes are that property and function names have been changed to make more explicit the dependencies between the names.</p>
 <div>
   <h2>Student List</h2>
-  {{student-list onRemove=(action 'removeController1' ) onReset=(action 'resetController1')}}
+  {{student-list abcDef=(action 'removeController1' ) ghiJkl=(action 'resetController1')}}
     {{#each model as |student|}}
-      {{student}}<br>
+      <p>{{student}}</p>
     {{/each}}
 </div>
 {{outlet}}
