@@ -1,4 +1,4 @@
-# ckbkch6b
+# Ember.js Component Tutorial  
 This repo contains a working Ember.js project used to support a tutorial on Ember.js components.
 
 These code examples are based on "Ember.js Cookbook" Chapter 6, "Using events in components".
