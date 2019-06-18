@@ -16,10 +16,10 @@ export default Route.extend({
     st.pushObject('George');
   },
   actions: {
-    removeRoute(){
-    this.get('listOfStudents').popObject();
+    removeRoute0(){
+      this.get('listOfStudents').popObject();
     },
-    resetRoute(){
+    resetRoute0(){
       this.reset();
     }
   }
